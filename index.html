@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metadata Schema Testing - ARRIVAL OF THE 'CAMILLE'</title>
+    
+    <!-- HighWire Press metadata -->
+    <meta name="citation_title" content="ARRIVAL OF THE 'CAMILLE'">
+    <meta name="citation_publication_date" content="1870/08/16">
+    <meta name="citation_publisher" content="National Library of New Zealand">
+    <meta name="citation_journal_title" content="Auckland Star">
+    <meta name="citation_volume" content="6">
+    <meta name="citation_issue" content="1518">
+    <meta name="citation_firstpage" content="1">
+    <meta name="citation_fulltext_html_url" content="https://paperspast.veridiansoftware.com/newspapers/AS18700616-2.2.1">
+    
+    <!-- Dublin Core metadata -->
+    <meta name="DC.title" content="ARRIVAL OF THE 'CAMILLE'">
+    <meta name="DC.date" content="1870-06-16">
+    <meta name="DC.publisher" content="Auckland Star">
+    <meta name="DC.type" content="Text">
+    <meta name="DC.source" content="https://paperspast.veridiansoftware.com/newspapers/AS18700616.2.11">
+    <meta name="DC.rights" content="No known copyright (New Zealand). To the best of the National Library of New Zealand's knowledge, under New Zealand law, there is no copyright in this item in New Zealand.">
+    
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": "ARRIVAL OF THE 'CAMILLE'",
+        "datePublished": "1870-06-16",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Auckland Star"
+        },
+        "isPartOf": {
+            "@type": "Newspaper",
+            "name": "Auckland Star",
+            "volumeNumber": "1",
+            "issueNumber": "136"
+        },
+        "pageStart": "2",
+        "provider": {
+            "@type": "Organization",
+            "name": "National Library of New Zealand"
+        },
+        "url": "https://paperspast.veridiansoftware.com/newspapers/AS18700616.2.11/article-123",
+        "copyrightNotice": "No known copyright (New Zealand). To the best of the National Library of New Zealand's knowledge, under New Zealand law, there is no copyright in this item in New Zealand."
+    }
+    </script>
+    
+    <style>
+        body {
+            font-family: Georgia, serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #fafafa;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2em;
+        }
+        
+        .metadata-info {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+        
+        .article-content {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-left: 4px solid #3498db;
+        }
+        
+        .newspaper-header {
+            text-align: center;
+            border-bottom: 3px double #333;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .newspaper-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        
+        .newspaper-date {
+            font-size: 1.2em;
+            font-style: italic;
+            margin: 5px 0;
+        }
+        
+        .article-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .article-text {
+            columns: 2;
+            column-gap: 30px;
+            text-align: justify;
+            margin-top: 20px;
+        }
+        
+        .schema-tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin: 2px;
+        }
+        
+        .test-instructions {
+            background: #e8f6f3;
+            border: 1px solid #a7e0d4;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .test-instructions h3 {
+            margin-top: 0;
+            color: #16a085;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Metadata Schema Testing Page</h1>
+        <p>Testing HighWire Press, Dublin Core (DCMI), and JSON-LD schemas</p>
+        <div>
+            <span class="schema-tag">HighWire Press</span>
+            <span class="schema-tag">Dublin Core</span>
+            <span class="schema-tag">JSON-LD Schema.org</span>
+        </div>
+    </div>
+    
+    <div class="test-instructions">
+        <h3>Testing Instructions for Zotero</h3>
+        <p><strong>To test metadata extraction:</strong></p>
+        <ol>
+            <li>Save this HTML file locally or host it on a web server</li>
+            <li>Open the page in your browser</li>
+            <li>Use the Zotero browser connector to save this item</li>
+            <li>Check which metadata fields are captured and from which schema</li>
+            <li>Compare the extracted data with the original schemas below</li>
+        </ol>
+    </div>
+    
+    <div class="metadata-info">
+        <h3>Embedded Metadata Schemas</h3>
+        <p>This page contains three different metadata schemas with slightly different data to test Zotero's extraction priorities:</p>
+        
+        <h4>HighWire Press Tags:</h4>
+        <ul>
+            <li><code>citation_title</code>: "ARRIVAL OF THE 'CAMILLE'"</li>
+            <li><code>citation_publication_date</code>: 1870/08/16</li>
+            <li><code>citation_journal_title</code>: Auckland Star</li>
+            <li><code>citation_volume</code>: 6</li>
+            <li><code>citation_issue</code>: 1518</li>
+            <li><code>citation_firstpage</code>: 1</li>
+        </ul>
+        
+        <h4>Dublin Core Tags:</h4>
+        <ul>
+            <li><code>DC.title</code>: "ARRIVAL OF THE 'CAMILLE'"</li>
+            <li><code>DC.date</code>: 1870-06-16</li>
+            <li><code>DC.publisher</code>: Auckland Star</li>
+            <li><code>DC.type</code>: Text</li>
+        </ul>
+        
+        <h4>JSON-LD Schema.org:</h4>
+        <ul>
+            <li><code>@type</code>: NewsArticle</li>
+            <li><code>headline</code>: "ARRIVAL OF THE 'CAMILLE'"</li>
+            <li><code>datePublished</code>: 1870-06-16</li>
+            <li><code>volumeNumber</code>: 1</li>
+            <li><code>issueNumber</code>: 136</li>
+            <li><code>pageStart</code>: 2</li>
+        </ul>
+        
+        <p><em>Note: The schemas contain intentionally different values for volume, issue, page, and date to help identify which schema Zotero prioritizes.</em></p>
+    </div>
+    
+    <article class="article-content">
+        <div class="newspaper-header">
+            <h1 class="newspaper-title">AUCKLAND STAR</h1>
+            <p class="newspaper-date">Tuesday, June 16, 1870</p>
+            <p>Volume I, No. 136</p>
+        </div>
+        
+        <h2 class="article-title">ARRIVAL OF THE 'CAMILLE'</h2>
+        
+        <div class="article-text">
+            <p>The French warship <em>Camille</em> arrived in Auckland harbor yesterday morning, creating quite a stir among the local population. The vessel, under the command of Captain Henri Dubois, represents one of the finest examples of modern naval engineering to grace our waters.</p>
+            
+            <p>The <em>Camille</em>, a corvette of the French Imperial Navy, carries a complement of 180 officers and men. Her arrival was announced by the firing of seven guns, to which the battery at Point Britomart responded with appropriate courtesy.</p>
+            
+            <p>Captain Dubois paid his respects to His Excellency Sir George Grey this morning, and it is understood that the vessel will remain in port for approximately one week to take on provisions and allow the crew some well-deserved shore leave.</p>
+            
+            <p>The ship has attracted considerable attention from our citizens, many of whom gathered at the wharf to witness her impressive lines and formidable armament. The <em>Camille</em> represents the latest in French naval design, with her steam-assisted propulsion and modern rifled guns.</p>
+            
+            <p>During her stay, it is expected that Captain Dubois and his officers will participate in various social functions organized by Auckland's French community and colonial officials.</p>
+        </div>
+    </article>
+    
+    <footer style="margin-top: 40px; padding: 20px; text-align: center; color: #666; border-top: 1px solid #ddd;">
+        <p><strong>Metadata Testing Page</strong> | Created for Zotero schema extraction testing</p>
+        <p>Original article metadata courtesy of Papers Past, National Library of New Zealand</p>
+    </footer>
+</body>
+</html>
